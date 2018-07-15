@@ -10,19 +10,19 @@ Dokerized Node with Browsersync & Yarn Package Manager
 #### Zshrc Shortcuts
 
 ```zsh
-node() { docker run --rm -it -v "$(pwd)":/src pam79/node node "$@" }
+node() { docker run --rm -it -v "$(pwd)":/src pam79/node node "$@"; }
 ```
 
 ```zsh
-npm()  { docker run --rm -it -v "$(pwd)":/src pam79/node npm  "$@" }
+npm()  { docker run --rm -it -v "$(pwd)":/src pam79/node npm  "$@"; }
 ```
 
 ```zsh
-yarn() { docker run --rm -it -v "$(pwd)":/src pam79/node yarn "$@" }
+yarn() { docker run --rm -it -v "$(pwd)":/src pam79/node yarn "$@"; }
 ```
 
 ```zsh
-browserSync() { docker run --rm -it --net proxy-tier -v "$(pwd)":/src pam79/node browser-sync "$@" }
+browserSync() { docker run --rm -it --net proxy-tier -v "$(pwd)":/src pam79/node browser-sync "$@"; }
 ```
 
 #### Docker Compose
