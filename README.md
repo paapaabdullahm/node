@@ -7,7 +7,7 @@ Dokerized Node with Browsersync & Yarn Package Manager
   - Browsersync: **`2.24.5`**
   - Yarn: **`1.6.0`**
 
-#### Zshrc Shortcut Functions
+#### Zshrc Shortcuts
 
 ```zsh
 node() { docker run --rm -it -v "$(pwd)":/src pam79/node node "$@" }
