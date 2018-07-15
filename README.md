@@ -1,11 +1,12 @@
 ## **NodeJS**
-Dokerized Node with Browsersync & Yarn Package Manager
+Dokerized Node with Browsersync, NPM & Yarn Package Managers
 
 #### Current Tags:
 
   - Node (LTS): **`8.11.*`**
-  - Browsersync: **`2.24.5`**
+  - NPM:  **`5.6.0`**
   - Yarn: **`1.6.0`**
+  - Browsersync: **`2.24.5`**
 
 #### Zshrc Shortcuts
 
