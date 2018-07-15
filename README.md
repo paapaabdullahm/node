@@ -14,7 +14,7 @@ node() { docker run --rm -it -v "$(pwd)":/src pam79/node node "$@" }
 ```
 
 ```zsh
-npm() { docker run --rm -it -v "$(pwd)":/src pam79/node npm "$@" }
+npm()  { docker run --rm -it -v "$(pwd)":/src pam79/node npm  "$@" }
 ```
 
 ```zsh
