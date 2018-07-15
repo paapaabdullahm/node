@@ -14,9 +14,16 @@ node() { docker run --rm -it -v "$(pwd)":/src pam79/node node "$@" }
 ```
 
 ```zsh
+npm() { docker run --rm -it -v "$(pwd)":/src pam79/node npm "$@" }
+```
+
+```zsh
 yarn() { docker run --rm -it -v "$(pwd)":/src pam79/node yarn "$@" }
 ```
 
 ```zsh
 browserSync() { docker run --rm -it --net proxy-tier -v "$(pwd)":/src pam79/node browser-sync "$@" }
 ```
+
+#### Docker Compose
+// TODO:
