@@ -4,8 +4,8 @@ Dokerized Node with Browsersync, NPM & Yarn Package Managers
 #### Current Tags:
 
   - Node (LTS): **`10.16.*`**
-  - NPM:  **`5.6.0`**
-  - Yarn: **`1.6.0`**
+  - NPM:  **`6.9.0`**
+  - Yarn: **`1.17.0`**
 
 #### Shortcuts via .zshrc/.bashrc
 
