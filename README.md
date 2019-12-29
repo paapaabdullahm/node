@@ -4,7 +4,7 @@ Dokerized Node with NPM & Yarn Package Managers
 #### Current Tags:
 
   - Node (LTS): **`12.14.*`**
-  - NPM:  **`5.1.0`**
+  - NPM:  **`6.13.4`**
   - Yarn: **`1.21.1`**
 
 #### Shortcuts via .zshrc/.bashrc
@@ -17,8 +17,8 @@ yarn() { docker run --rm -it -v "$(pwd)":/src pam79/node yarn "$@"; }
 ```
 
 > Don't forget to source your file for changes to reflect:
-
-`source .zshrc` or `source .bashrc`
+>
+> `$ source .zshrc` or `source .bashrc`
 
 #### Docker Compose
 
@@ -28,7 +28,7 @@ version: "2.4"
 services:
 
   node:
-    image: "pam79/node"
+    image: "pam79/node:v12.14.0"
     container_name: node
     user: "node"
     working_dir: /home/node/app
