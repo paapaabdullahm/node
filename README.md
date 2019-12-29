@@ -1,11 +1,11 @@
 ## **NodeJS**
-Dokerized Node with Browsersync, NPM & Yarn Package Managers
+Dokerized Node with NPM & Yarn Package Managers
 
 #### Current Tags:
 
-  - Node (LTS): **`10.16.*`**
-  - NPM:  **`6.9.0`**
-  - Yarn: **`1.17.0`**
+  - Node (LTS): **`12.14.*`**
+  - NPM:  **`5.1.0`**
+  - Yarn: **`1.21.1`**
 
 #### Shortcuts via .zshrc/.bashrc
 
@@ -16,7 +16,9 @@ npm()  { docker run --rm -it -v "$(pwd)":/src pam79/node npm  "$@"; }
 yarn() { docker run --rm -it -v "$(pwd)":/src pam79/node yarn "$@"; }
 ```
 
-> Don't forget to source your file after every change: `source .zshrc` or `source .bashrc`
+> Don't forget to source your file for changes to reflect:
+
+`source .zshrc` or `source .bashrc`
 
 #### Docker Compose
 
