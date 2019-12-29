@@ -1,5 +1,5 @@
-FROM node:10.16-jessie
+FROM node:12.14.0-buster
 LABEL maintainer="Paapa Abdullah Morgan <paapaabdullahm@gmail.com>"
 
 WORKDIR /src
-EXPOSE 3000 3001 8000
+EXPOSE 8000
